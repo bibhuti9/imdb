@@ -1,0 +1,59 @@
+- Screens
+  - Spalsh Screen (Use external library to implement native splash screen)
+  - Home Screen
+    - Top Banner with carousal
+    - Latest movies
+    - Featured Movies
+    - Bottom Navigation bar (All Movies, Search Movies)
+  - Movie Detail Screen
+    - Movie info with banner and main image
+  - Search Screen
+    - Show movies based on search
+
+Theme
+  COLORS
+    primary:#f5c518,
+    white:#FFF,
+    black:#000,
+    gray1:#FFFFFFB3,
+    backgroundColor:#121212
+
+    SIZES
+        padding1:10,
+        margin1:10,
+        radious:20,
+    textSize
+        S:15,
+        M:20,
+        L:25,
+        XL:30
+
+ICONS
+  plus
+  rightArrow
+  viderPlay,
+  home,
+  search,
+  star,
+
+movies:[
+  {
+    name,
+    backImage,
+    fontImage,
+    ratting,
+    year,
+    length,
+    director,
+    cast,
+    mobieDesc,
+    type:["Latest","Featured","Banner"],
+    tag:"The Best Movies and Series to Watch in October"
+  }
+]
+
+Packages
+  vectorIcon
+  Navigation 
+  vector ICONS
+  star
