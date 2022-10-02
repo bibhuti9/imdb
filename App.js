@@ -1,15 +1,12 @@
 import React, { useState, useEffect } from 'react'
 
-import SplashScreen from './src/screens/SplashScreen'
 import BottomNav from './src/navigators/BottomNav';
+import SplashScreen from 'react-native-splash-screen'
 
 export default function App() {
-  const [splashScreen, setSplashScreen] = useState(true);
   useEffect(() => {
-    setTimeout(() => {
-      setSplashScreen(false);
-    }, 2000);
+    SplashScreen.hide();
   }, [])
 
-  return splashScreen ? <SplashScreen /> : <BottomNav />
+  return <BottomNav />
 }
