@@ -42,6 +42,7 @@ const styles = StyleSheet.create({
     container: {
         flexDirection: "row",
         flexWrap: "wrap",
+        marginBottom: SIZES.margin1 + 50,
     },
     cardStyle: {
         width: SIZES.width / 2,
